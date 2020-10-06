@@ -6,6 +6,8 @@ import Adapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new Adapter() });
 
 import App from './App';
+// import { act } from 'react-test-renderer';
+import { act } from 'react-dom/test-utils';
 
 describe('App tests', () => {
 
@@ -49,33 +51,37 @@ describe('App tests', () => {
         const data = screen.find("#data");
         
         expect(data.text()).toEqual('False');
-        
+
         // toggle state
-        stateChangeButton.simulate("click")
+        stateChangeButton.simulate('click');
+        // stateChangeButton.simulate("click");
         expect(data.text()).toEqual('True');
 
         // toggle state
-        stateChangeButton.simulate("click")
+        stateChangeButton.simulate('click')
         expect(data.text()).toEqual('False');
     })
 
-    test('Component style toggles', async () => {
+    test('Component style toggles', () => {
 
         const screen = mount(<App />);
 
         const styleChangeButton = screen.find("#styleChangeButton");
-        const data = screen.find("#data");
-        
+        let data = screen.find("#data");
+
+        expect(styleChangeButton).not.toBeNull();
         expect(data.hasClass('content')).toEqual(false);
-        
-        // toggle state
-        await styleChangeButton.simulate('click');
 
-        console.log(data.hasClass('content'));
-        expect(data.hasClass('content')).toEqual(true);
+        // toggle style
+        styleChangeButton.simulate('click');
 
-        // // toggle state
-        // styleChangeButton.simulate("click");
-        // expect(data.hasClass('content')).toEqual(false);
+        const x = screen.find("#data");
+        expect(x.hasClass('content')).toEqual(true);
+
+        // toggle style
+        styleChangeButton.simulate('click');
+
+        const y = screen.find("#data");
+        expect(y.hasClass('content')).toEqual(false);
     })
 })
