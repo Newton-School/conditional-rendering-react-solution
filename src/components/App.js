@@ -21,7 +21,7 @@ const App = () => {
             &nbsp; &nbsp;
             <button id='styleChangeButton' onClick={handleStyleChange}>Change Style</button>
             <br/>
-            <span id='data' className={ (styles) ? 'content' : null }>
+            <span id='data' className={ (styles) ? 'content' : 'abc' }>
                 {
                     (state) ? 
                     (
