@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1601966538499" clover="3.2.0">
+  <project timestamp="1601966538500" name="All files">
+    <metrics statements="11" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="2" elements="18" coveredelements="14" complexity="0" loc="11" ncloc="11" packages="2" files="2" classes="2"/>
+    <package name="config">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="CSSStub.js" path="/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/config/CSSStub.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="10" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="2"/>
+      <file name="App.js" path="/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/src/components/App.js">
+        <metrics statements="10" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

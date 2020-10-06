@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="1" time="6.949">
+  <testsuite name="App tests" errors="0" failures="1" skipped="0" timestamp="2020-10-06T06:42:13" time="4.61" tests="6">
+    <testcase classname="App tests Change State button exists" name="App tests Change State button exists" time="0.032">
+    </testcase>
+    <testcase classname="App tests Change Style button exists" name="App tests Change Style button exists" time="0.003">
+    </testcase>
+    <testcase classname="App tests Component exists with false initially" name="App tests Component exists with false initially" time="0.003">
+    </testcase>
+    <testcase classname="App tests Component exists without styles initially" name="App tests Component exists without styles initially" time="0.003">
+    </testcase>
+    <testcase classname="App tests Component state toggles" name="App tests Component state toggles" time="0.079">
+    </testcase>
+    <testcase classname="App tests encountered a declaration exception" name="App tests encountered a declaration exception" time="0.001">
+      <failure>ReferenceError: regeneratorRuntime is not defined
+    at Suite.&lt;anonymous&gt; (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/src/components/App.test.js:62:9)
+    at addSpecsToSuite (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)
+    at Env.describe (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)
+    at describe (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)
+    at Object.&lt;anonymous&gt; (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/src/components/App.test.js:10:1)
+    at Runtime._execModule (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-runtime/build/index.js:1217:24)
+    at Runtime._loadModule (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-runtime/build/index.js:828:12)
+    at Runtime.requireModule (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-runtime/build/index.js:679:10)
+    at jasmine2 (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-jasmine2/build/index.js:230:13)
+    at runTestInternal (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-runner/build/runTest.js:372:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runTest (/media/ankurcharan/EA84A99384A96335/IntelInside/Web Dev/Projects/unsortedArray/Conditional-Rendering/node_modules/jest-runner/build/runTest.js:464:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
